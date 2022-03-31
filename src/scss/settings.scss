@@ -1,0 +1,67 @@
+
+  *
+  {
+    margin: 0;
+    padding: 0;
+    font-family:TTNormsPro;
+  }
+  :root {
+    /* colors */
+    --background: #FAFAFA;
+    --main-color: #FFFFFF;
+    --bogy-text: #00325A;
+    --button-color: #00AC4E;
+    --button-text: #6DA4CD;
+  
+
+  }
+  body{
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .container{
+    margin: 0 auto;
+    max-width: 1162px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  h1,h2,h3,h4{
+    font-size: calc(10px + (32px - 10px)* ((100vw - 320px)/(1440px - 320px))); 
+   
+
+  }
+
+
+
+
+ 
+  
+  button {
+    background-color: var(--button-color);
+    border:none;
+   
+    cursor: pointer;
+    color: var(--main-color);
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 6px;
+    box-shadow: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button:hover{
+    background-color: #066933;
+  }
+  .link {
+    
+    color: #000;
+    transition: color 0.3s ease-in-out;
+  }
+  
+ 
+  

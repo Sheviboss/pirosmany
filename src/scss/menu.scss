@@ -1,0 +1,341 @@
+.menu{
+    .container{
+        h1{
+            padding-top: 30px;
+            font-weight: 500;
+            font-size: 27.1585px;
+            line-height: 19px;
+        }
+        .tovar{
+            margin: 0 auto;
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 56px;
+            .card{
+                max-width: 206px;
+                .card__img{
+                    background: linear-gradient(180deg, #FFFFFF 0%, #E5E5E5 0.01%, #E6E6E6 100%);
+                    border-radius: 4.52641px;
+                    img{
+                        padding: 25px 65px;
+                    }
+                }
+                h2{
+                    padding-top: 9px;
+                    font-weight: 500;
+                    font-size: 14.4845px;
+                    line-height: 22px;
+                }
+                p{
+                    padding-top: 5px;
+                    font-weight: 400;
+                    font-size: 12.674px;
+                    line-height: 19px;
+                }
+                .stars{
+                    margin-top: 12px;
+                    display: flex;
+                    gap: 4px;
+                }
+                .price{
+                    margin-top: 10px;
+                    display: flex;
+                    gap: 18px;
+                    h3{
+                        font-weight: 500;
+                        font-size: 18.1056px;
+                        line-height: 23px;
+                    }
+                    p{
+                        font-weight: 400;
+                        font-size: 12.674px;
+                        line-height: 23px;
+                        color: #828282;
+                    }
+                }
+                .card__btn{
+                    margin-top: 13px;
+                    padding: 10px 28px;
+                    font-weight: 500;
+                    font-size: 18.1056px;
+                    line-height: 14px;
+                    color: #FFFFFF;
+
+                }
+            }
+        }
+        .pagination{
+            margin-top: 53px;
+            text-align: center;
+            a{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 25px;
+                margin-right: 21px;
+                text-decoration: none;
+                color:#000;
+                button{
+                    background-color: transparent;
+                    
+                    }
+                    &:active{
+                        background-color: var(--button-color);
+                        padding: 8px 17px;
+                        color:#fff;
+                        border-radius: 5px;
+                }
+            }
+
+        }
+    }
+   
+}
+
+@media(max-width:425px){
+    .menu{
+        .container{
+            h1{
+                padding-top: 12px;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+            }
+            .tovar{
+                margin: 0 auto;
+                margin-top: 12px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 26px;
+                .card{
+                    max-width: 88px;
+                    .card__img{
+                        background: linear-gradient(180deg, #FFFFFF 0%, #E5E5E5 0.01%, #E6E6E6 100%);
+                        border-radius: 4.52641px;
+                        img{
+                            padding: 11px 28px;
+                            width: 31px;
+                        }
+                    }
+                    h2{
+                        padding-top: 0px;
+                        font-weight: 500;
+                        font-size: 8px;
+                        line-height: 24px;
+                    }
+                    p{
+                        padding-top: 5px;
+                        font-weight: 400;
+                        font-size: 6px;
+                        line-height: 7px;
+                    }
+                    .stars{
+                        margin-top: 12px;
+                        display: flex;
+                        gap: 4px;
+                    }
+                    .price{
+                        margin-top: 10px;
+                        display: flex;
+                        gap: 18px;
+                        h3{
+                            font-weight: 500;
+                            font-size: 8px;
+                            line-height: 25px;
+                        }
+                        p{
+                            font-weight: 400;
+                            font-size: 6px;
+                            line-height: 25px;
+                            color: #828282;
+                        }
+                    }
+                    .card__btn{
+                        margin-top: 13px;
+                        padding: 1px 10px;
+                        font-weight: 500;
+                        font-size: 8px;
+                        line-height: 15px;
+                        color: #FFFFFF;
+    
+                    }
+                }
+            }
+            
+        }
+       
+    }
+}
+
+@media(max-width:768px){
+    .menu{
+        .container{
+            h1{
+                padding-top: 12px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 15px;
+            }
+            .tovar{
+                margin: 0 auto;
+                margin-top: 12px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 26px;
+                .card{
+                    max-width: 150px;
+                    .card__img{
+                        background: linear-gradient(180deg, #FFFFFF 0%, #E5E5E5 0.01%, #E6E6E6 100%);
+                        border-radius: 4.52641px;
+                        img{
+                            padding: 15px 55px;
+                            width: 51px;
+                        }
+                    }
+                    h2{
+                        padding-top: 0px;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 24px;
+                    }
+                    p{
+                        padding-top: 5px;
+                        font-weight: 400;
+                        font-size: 8px;
+                        line-height: 7px;
+                    }
+                    .stars{
+                        margin-top: 12px;
+                        display: flex;
+                        gap: 4px;
+                    }
+                    .price{
+                        margin-top: 10px;
+                        display: flex;
+                        gap: 18px;
+                        h3{
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 25px;
+                        }
+                        p{
+                            font-weight: 400;
+                            font-size: 8px;
+                            line-height: 25px;
+                            color: #828282;
+                        }
+                    }
+                    .card__btn{
+                        margin-top: 13px;
+                        padding: 1px 10px;
+                        font-weight: 500;
+                        font-size: 8px;
+                        line-height: 15px;
+                        color: #FFFFFF;
+    
+                    }
+                }
+            }
+            .pagination{
+                a{
+                    font-weight: 500;
+                    font-size: 9.40239px;
+                    line-height: 12px;
+                    margin-right: 9px;
+                    button{
+                        img{
+                            width: 8px;
+                        }
+                    }
+                    &:active{
+                        padding: 3px 8px;
+                    }
+                }
+            }
+        }
+       
+    }
+}  
+@media(min-width:769px) and (max-width:1003px){
+    .menu{
+        .container{
+            h1{
+                padding-top: 12px;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 15px;
+            }
+            .tovar{
+                margin: 0 auto;
+                margin-top: 12px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 26px;
+                .card{
+                    max-width: 170px;
+                    .card__img{
+                        background: linear-gradient(180deg, #FFFFFF 0%, #E5E5E5 0.01%, #E6E6E6 100%);
+                        border-radius: 4.52641px;
+                        img{
+                            padding: 15px 55px;
+                            width: 51px;
+                        }
+                    }
+                    h2{
+                        padding-top: 0px;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 24px;
+                    }
+                    p{
+                        padding-top: 5px;
+                        font-weight: 400;
+                        font-size: 8px;
+                        line-height: 7px;
+                    }
+                    .stars{
+                        margin-top: 12px;
+                        display: flex;
+                        gap: 4px;
+                    }
+                    .price{
+                        margin-top: 10px;
+                        display: flex;
+                        gap: 18px;
+                        h3{
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 25px;
+                        }
+                        p{
+                            font-weight: 400;
+                            font-size: 8px;
+                            line-height: 25px;
+                            color: #828282;
+                        }
+                    }
+                    .card__btn{
+                        margin-top: 13px;
+                        padding: 1px 10px;
+                        font-weight: 500;
+                        font-size: 8px;
+                        line-height: 15px;
+                        color: #FFFFFF;
+    
+                    }
+                }
+            }
+        }
+       
+    }
+}
+
+@media(min-width:1024px) and (max-width:1255px){
+    .menu .container .tovar{
+        gap: 25px;
+    }
+}
